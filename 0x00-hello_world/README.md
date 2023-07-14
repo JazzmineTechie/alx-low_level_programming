@@ -3,4 +3,6 @@
 The C file name will be saved in the variable $CFILE
 The output should be saved in the file c
 
-#2. This compiles and assembles but doesnt link.
+#2. This compiles and assembles but doesnt link
+
+#3.This compiles but dont assemble.
