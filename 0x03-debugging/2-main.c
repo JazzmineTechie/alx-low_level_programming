@@ -15,10 +15,10 @@ int main(void)
 	a = 972;
 	b = -98;
 	c = 0;
+	
+	int largest = largest_number(a, b, c);
 
-	largest = largest_number(a, b, c);
-
-	printf("%d is the largest number\n", largest);
+	printf("%d is the largest number'\n'", largest);
 
 	return (0);
 }
