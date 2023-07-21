@@ -13,18 +13,19 @@ void print_diagonal(int n)
 	}
 	else
 	{
-		int la;
-		int lb;
+		int a;
+		int b;
 
-		for (la = 0; la < n; la++)
+		for (a = 0; a < n; a++)
 		{
-			for (lb = 0; lb < n; lb++)
+			for (b = 0; b < n; b++)
 			{
-			if (lb == la)
-				_putchar('\\');
-			else if (lb < la)
-				_putchar('\n');
+				if (b == a)
+					_putchar ('\\');
+				else if (b < a)
+				_putchar (' ');
 			}
+			_putchar('\n');
 		}
 	}
 }
