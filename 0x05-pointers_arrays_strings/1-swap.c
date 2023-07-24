@@ -5,11 +5,11 @@
  * @a: the first integer
  * @b:the second integer
  */
-void swap_int(int *a, int *b);
+void swap_int(int *a, int *b)
 {
 	int n;
 
 	n = *a;
 	*a = *b;
-	*b = *n;
+	*b = n;
 }
