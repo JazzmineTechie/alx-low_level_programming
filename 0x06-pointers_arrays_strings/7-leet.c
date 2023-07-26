@@ -23,6 +23,6 @@ char *leet(char *n)
 			}
 		}
 	}
-	return (0);
+	return (n);
 }
 
