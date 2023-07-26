@@ -4,7 +4,7 @@
  * _strncat - concatenates two strings
  * using at most n bytes from src
  * @dest: a string
- * @str: another string
+ * @src: another string
  * @n: input value
  * Return: dest
  */
