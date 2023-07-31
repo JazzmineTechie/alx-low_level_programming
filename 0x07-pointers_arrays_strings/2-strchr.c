@@ -10,15 +10,12 @@
 
 char *_strchr(char *s, char c)
 {
-	char *s = "Jazzmine";
-	char *c;
+	int j = 0;
 
-	c = _strchr(s, 'l');
-
-	if (c != NULL)
+	for (; s[j] >= '\0'; j++)
 	{
-		_putchar(c);
-		_putchar("%s\n");
+		if (s[j] == c)
+			return (&s[j]);
 	}
 	return (0);
 }
