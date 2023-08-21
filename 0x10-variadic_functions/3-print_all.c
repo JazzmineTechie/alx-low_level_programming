@@ -35,7 +35,7 @@ void print_all(const char * const format, ...)
 					string = va_arg(list, char *);
 					if (!string)
 						string = "(nil)";
-					printf("%s%s", sepr, string);
+					printf("%s%s\n", sepr, string);
 					break;
 				default:
 					j++;
