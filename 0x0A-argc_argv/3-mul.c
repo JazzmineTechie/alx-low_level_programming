@@ -11,6 +11,7 @@
 int _atoi(char *str)
 {
 	int in, de, n, len, fl, digit;
+
 	in = 0;
 	de = 0;
 	n = 0;
